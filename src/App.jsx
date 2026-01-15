@@ -4,6 +4,7 @@ import Home from './Pages/Frontend/Home'
 import Category from './Pages/Frontend/Category'
 import Details from './Pages/Frontend/Details'
 import Cart from './Pages/Frontend/Cart'
+import Sidebar from './layout/Sidebar'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
     <Route path='/category/:cid' element={<Category/>}/>
     <Route path='/details/:id' element={<Details/>}/>
     <Route path='/cart' element={<Cart/>}/>
+    <Route path = '/sidebar' element={<Sidebar/>}></Route>
    </Routes>
    </BrowserRouter>
    </>
